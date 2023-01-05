@@ -1,0 +1,38 @@
+{
+  "name": "electron-vue-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a full-fledge Vue 3 + Electron boilerplate to get you developing beautiful and responsive UI's in no time!",
+  "main": "build/main/main.js",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js && electron-builder -c config/electron-builder.json",
+    "build:win": "node scripts/build.js && electron-builder -c config/electron-builder.json --win",
+    "build:mac": "node scripts/build.js && electron-builder -c config/electron-builder.json --mac",
+    "build:linux": "node scripts/build.js && electron-builder -c config/electron-builder.json --linux"
+  },
+  "repository": "https://github.com/AndrewR3K/electron-vue-boilerplate",
+  "author": {
+    "name": "Bytesizd",
+    "url": "https://github.com/andrewr3k"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.4",
+    "@vue/cli": "^5.0.1",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "electron": "^19.0.0",
+    "electron-builder": "^23.0.3",
+    "electron-devtools-installer": "^3.2.0",
+    "typescript": "^4.6.2",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.0.96",
+    "axios": "^0.27.2",
+    "electron-log": "^4.4.8",
+    "electron-updater": "^5.2.1",
+    "mdi-vue": "^3.0.13",
+    "vue": "^3.2.36",
+    "vue-router": "^4.0.13"
+  }
+}
