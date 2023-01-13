@@ -1,5 +1,5 @@
 {
-    "appId": "com.myapp.app",
+    "appId": "com.redbackup.app",
     "directories": {
         "output": "dist"
     },
@@ -7,7 +7,7 @@
         "oneClick": false,
         "perMachine": false,
         "allowToChangeInstallationDirectory": true,
-        "shortcutName": "My App"
+        "shortcutName": "RedBackup"
     },
     "win": {
         "target": "nsis",
@@ -15,8 +15,7 @@
         "publish": {
             "private": false,
             "provider": "github",
-            "vPrefixedTagName": false,
-            "token": "yourrepotokenifprivaterepo"
+            "vPrefixedTagName": false
         }
     },
     "linux":  {

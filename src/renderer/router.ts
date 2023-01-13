@@ -1,19 +1,25 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 import HomeView from "./views/HomeView.vue";
-import AboutView from "./views/AboutView.vue"
+import AboutView from "./views/JobsView.vue";
+import SettingsView from "./views/SettingsView.vue";
 
 const routes = [
   {
     path: "/",
-    name: "home",
+    name: "dashboard",
     component: HomeView,
   },
   {
-    path: "/about",
-    name: "about",
+    path: "/jobs",
+    name: "jobs",
     component: AboutView,
   },
+  // {
+  //   path: "/settings",
+  //   name: "settings",
+  //   component: SettingsView,
+  // },
 ];
 
 const router = createRouter({

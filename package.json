@@ -1,38 +1,56 @@
 {
-  "name": "electron-vue-boilerplate",
-  "version": "1.0.0",
-  "description": "This is a full-fledge Vue 3 + Electron boilerplate to get you developing beautiful and responsive UI's in no time!",
+  "name": "redbackup",
+  "version": "0.1.0",
+  "description": "A Database backup tool designed around RedM/FiveM",
   "main": "build/main/main.js",
   "scripts": {
     "dev": "node scripts/dev-server.js",
     "build": "node scripts/build.js && electron-builder -c config/electron-builder.json",
     "build:win": "node scripts/build.js && electron-builder -c config/electron-builder.json --win",
     "build:mac": "node scripts/build.js && electron-builder -c config/electron-builder.json --mac",
-    "build:linux": "node scripts/build.js && electron-builder -c config/electron-builder.json --linux"
+    "build:linux": "node scripts/build.js && electron-builder -c config/electron-builder.json --linux",
+    "deploy": "node scripts/build.js && electron-builder -c config/electron-builder.json --win --publish always"
   },
-  "repository": "https://github.com/AndrewR3K/electron-vue-boilerplate",
+  "repository": "https://github.com/BryceCanyonCounty/redbackup",
   "author": {
     "name": "Bytesizd",
     "url": "https://github.com/andrewr3k"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
     "@vitejs/plugin-vue": "^2.2.4",
     "@vue/cli": "^5.0.1",
+    "autoprefixer": "^10.4.13",
     "chalk": "^4.1.2",
     "chokidar": "^3.5.3",
     "electron": "^19.0.0",
     "electron-builder": "^23.0.3",
     "electron-devtools-installer": "^3.2.0",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
     "typescript": "^4.6.2",
     "vite": "^2.9.9"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.7",
+    "@heroicons/vue": "^2.0.13",
     "@mdi/js": "^7.0.96",
+    "@types/node": "^18.11.18",
     "axios": "^0.27.2",
+    "crypto": "^1.0.1",
+    "dayjs": "^1.11.7",
+    "easy-auto-launch": "^6.0.2",
     "electron-log": "^4.4.8",
     "electron-updater": "^5.2.1",
+    "flowbite": "^1.6.0",
+    "lodash": "^4.17.21",
+    "mariadb": "^3.0.2",
     "mdi-vue": "^3.0.13",
+    "mysqldump": "^3.2.0",
+    "node-schedule": "^2.1.0",
+    "rimraf": "^4.0.4",
     "vue": "^3.2.36",
-    "vue-router": "^4.0.13"
+    "vue-router": "^4.0.13",
+    "vue3-popper": "^1.5.0"
   }
 }
