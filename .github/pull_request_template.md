@@ -1,19 +1,26 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
----
+A similar PR may already be submitted! Please search among the Pull request before creating one.
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+Thanks for submitting a pull request! Please provide enough information so that others can review your pull request:
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+For more information, see the CONTRIBUTING guide.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+Summary
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+This PR fixes/implements the following bugs/features
+
+ Bug 1
+ Bug 2
+ Feature 1
+ Feature 2
+ Breaking changes
+Explain the motivation for making this change. What existing problem does the pull request solve?
+
+Test plan (required)
+
+Demonstrate the code is solid. Example: The exact commands you ran and their output, screenshots / videos if the pull request changes UI.
+
+Code formatting
+
+Closing issues
+
+Fixes #
