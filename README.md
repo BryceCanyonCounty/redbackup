@@ -18,13 +18,12 @@ Features:
 ## How to Use
 1. Coming soon!
 
-
 ## To-DO
 - Linux Support
 - BACKUP TO GITHUB, maybe
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. [How to contribute](https://github.com/BryceCanyonCounty/redbackup/blob/main/.github/CONTRIBUTING.md)
 
 ## License
 [GNU General Public License v3.0](https://github.com/BryceCanyonCounty/redbackup/blob/master/LICENSE)
