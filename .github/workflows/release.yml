@@ -1,8 +1,8 @@
 name: Build
 on:
   push:
-    tags:
-      - release/**
+    branches:
+      - 'main'
 jobs:
   build_on_win:
     runs-on: windows-latest
