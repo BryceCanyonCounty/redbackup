@@ -1,6 +1,6 @@
 {
   "name": "redbackup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Database backup tool designed around RedM/FiveM",
   "main": "build/main/main.js",
   "scripts": {
