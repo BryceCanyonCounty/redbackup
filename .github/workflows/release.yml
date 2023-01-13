@@ -1,8 +1,6 @@
 name: Build
 on:
   push:
-    branches:
-      - 'main'
     tags:
       - release/**
 jobs:
@@ -15,7 +13,7 @@ jobs:
         node-version: 14
     - name: Install dependencies 📦
       run: yarn install
-    - name: build
+    - name: Build and Deploy 🛠️
       run: yarn run deploy
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
