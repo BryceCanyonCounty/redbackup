@@ -161,6 +161,11 @@ app.whenReady().then(() => {
         mainWindow.close();
       },
     },
+    { type: 'separator' },
+    {
+      label: app.getVersion(),
+      type: "normal"
+    }
   ]);
 
   // Make a change to the context menu
